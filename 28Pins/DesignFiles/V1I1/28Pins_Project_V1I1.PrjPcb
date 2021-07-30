@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for 28Pins_Project_V1I1
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -212,9 +212,9 @@ AllowFabrication=0
 ParameterCount=0
 VariationCount=6
 Variation1=Designator=Y1|UniqueId=\KYPKKINO|Kind=2|AlternatePart=10MHz Crystal|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=28Pins_Project_V1I1.SchLib|AltLibLink_SymbolReference=ABM7-16.000MHZ-D2Y-T|AltLibLink_DesignItemID=ABM7-10.000MHZ-D2Y-T|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=28Pins_Project_V1I1.SchLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=ABM7_V1_1_Big|AltLibLink_IsSameFootprint=True
-ParamVariation1=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamVariation1=ParameterName=Comment|VariantValue=10MHz Crystal
 ParamDesignator1=Y1
-ParamVariation2=ParameterName=Comment|VariantValue=10MHz Crystal
+ParamVariation2=ParameterName=Case/Package|VariantValue=SMD/SMT
 ParamDesignator2=Y1
 ParamVariation3=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator3=Y1
@@ -275,9 +275,9 @@ ParamDesignator30=Y1
 ParamVariation31=ParameterName=Supplier Part Number 1|VariantValue=535-9833-1-ND
 ParamDesignator31=Y1
 Variation2=Designator=Y2|UniqueId=\CLFTVXEA|Kind=2|AlternatePart=8MHz Crystal|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=28Pins_Project_V1I1.SchLib|AltLibLink_SymbolReference=ABM7-16.000MHZ-D2Y-T|AltLibLink_DesignItemID=ABM7-8.000MHZ-D2Y-T|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=28Pins_Project_V1I1.SchLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=ABM7_V1_1_Big|AltLibLink_IsSameFootprint=True
-ParamVariation32=ParameterName=Case/Package|VariantValue=CSMD
+ParamVariation32=ParameterName=Comment|VariantValue=8MHz Crystal
 ParamDesignator32=Y2
-ParamVariation33=ParameterName=Comment|VariantValue=8MHz Crystal
+ParamVariation33=ParameterName=Case/Package|VariantValue=CSMD
 ParamDesignator33=Y2
 ParamVariation34=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator34=Y2
@@ -454,60 +454,28 @@ DocumentPath=Project Outputs for 28Pins_Project_V1I1\Gerber\28Pins_Project_V1I1_
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for 28Pins_Project_V1I1\BOM\28Pins BOM Purchasing-28Pins_Project_V1I1(5V_3V3).xls
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for 28Pins_Project_V1I1\BOM\28Pins BOM Purchasing-28Pins_Project_V1I1(FIXED 5V).xls
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for Free Documents\BOM\28Pins BOM Purchasing-28Pins_Project_V1I1.xls
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for 28Pins_Project_V1I1\BOM\28 Pins Component Reference Grouped BOM-28Pins_Project_V1I1(5V_3V3).xls
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for 28Pins_Project_V1I1\BOM\28 Pins Component Reference Grouped BOM-28Pins_Project_V1I1(FIXED 5V).xls
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for 28Pins_Project_V1I1\BOM\28 Pins Components Reference BOM-28Pins_Project_V1I1(5V_3V3).xls
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for 28Pins_Project_V1I1\BOM\28 Pins Components Reference BOM-28Pins_Project_V1I1(FIXED 5V).xls
-DItemRevisionGUID=
-
-[GeneratedDocument26]
 DocumentPath=Project Outputs for 28Pins_Project_V1I1\Design Rule Check - 28Pins_Project_V1I1_PCB.html
 DItemRevisionGUID=
 
-[GeneratedDocument27]
-DocumentPath=Project Outputs for 28Pins_Project_V1I1\Pick Place\Pick Place for 28Pins_Project_V1I1_PCB(5V_3V3).txt
-DItemRevisionGUID=
-
 [Parameter1]
-Name=Project
-Value=28Pins
-
-[Parameter2]
-Name=Company
-Value=Self
-
-[Parameter3]
 Name=VersionRevision
 Value=V1I1
 
-[Parameter4]
+[Parameter2]
 Name=Title
 Value=28Pins
 
-[Parameter5]
+[Parameter3]
+Name=Project
+Value=28Pins
+
+[Parameter4]
 Name=NotFitted
 Value=NF
+
+[Parameter5]
+Name=Company
+Value=Self
 
 [Configuration1]
 Name=Default Configuration
@@ -520,7 +488,7 @@ ContentTypeGUID=
 ConfigurationType=
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for 28Pins_Project_V1I1
 
 [OutputGroup1]
 Name=Netlist Outputs
